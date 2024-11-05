@@ -37,6 +37,7 @@ const Movies = () => {
   return (
     <>
       <div className="searchbar">
+        <h2>search movies</h2>
         <input
           type="text"
           value={searchMovie}

@@ -12,6 +12,7 @@ const Login = (props) => {
   return (
     <>
       <div className="login">
+        <h3>enter your name</h3>
         <input
           type="text"
           value={input}
@@ -25,7 +26,7 @@ const Login = (props) => {
             setInput("");
           }}
         >
-          Enter as {input}
+          Enter
         </button>
       </div>
     </>
